@@ -11,7 +11,7 @@ text = f"Subject? {subject}\n\n{message}"
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
 
-server.login(email, "tculmnmjwuimhntq")
+server.login(email, "YOUR GOOGLE APP PASSWORD")
 
 server.sendmail(email, receiver_email, text)
 
